@@ -18,6 +18,12 @@ The project supports three example datasets:
 | `domestic` | indoor pet photos | animal -> room, room -> ball presence, ball presence -> animal |
 | `wild` | wildlife chase photos | predator -> season, time of day -> predator color |
 
+Generated datasets are also available on Hugging Face:
+
+- `wild`: https://huggingface.co/datasets/LJaremek/cgsid_wild
+- `birds`: https://huggingface.co/datasets/LJaremek/cgsid_birds
+- `domestic`: https://huggingface.co/datasets/LJaremek/cgsid_domestic
+
 ## Repository Layout
 
 - `src/cgsid/core` - shared configuration, distribution generation, image generation, CLIP querying, and dataset base classes.
