@@ -2,6 +2,14 @@
 
 CGSID contains tooling for Generating Correlated Synthetic Images, querying the generated images with CLIP, and analysing whether the designed correlations are visible in metadata and CLIP predictions.
 
+## Example Images
+
+| Birds | Domestic | Wild |
+|---|---|---|
+| <img src="images/sample_000154.png" width="180" alt="Bird sample 000154"> | <img src="images/sample_002874.png" width="180" alt="Domestic sample 002874"> | <img src="images/sample_000976.png" width="180" alt="Wild sample 000976"> |
+| <img src="images/sample_001769.png" width="180" alt="Bird sample 001769"> | <img src="images/sample_001073.png" width="180" alt="Domestic sample 001073"> | <img src="images/sample_001409.png" width="180" alt="Wild sample 001409"> |
+| <img src="images/sample_001276.png" width="180" alt="Bird sample 001276"> | <img src="images/sample_002141.png" width="180" alt="Domestic sample 002141"> | <img src="images/sample_002124.png" width="180" alt="Wild sample 002124"> |
+
 The project supports three example datasets:
 
 | Dataset | Scene | Main designed correlations |
